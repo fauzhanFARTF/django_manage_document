@@ -5,9 +5,9 @@
 Langkah - Langkah
 
 ```bash
-django-admin startproject docmerge
+django-admin startproject docmanage
 ```
-Perintah ini akan menghasilkan direktori docmerge yang berisi struktur dasar proyek Django, seperti:
+Perintah ini akan menghasilkan direktori docmanage yang berisi struktur dasar proyek Django, seperti:
 
 ### Penjelasan Perintah
 Perintah ini digunakan untuk membuat proyek Django baru. Berikut penjelasan rinciannya:
@@ -15,15 +15,15 @@ Perintah ini digunakan untuk membuat proyek Django baru. Berikut penjelasan rinc
 adalah alat baris perintah yang disediakan oleh Django untuk membantu dalam membuat dan mengelola proyek Django.
 2. startproject 
 adalah subkomando yang digunakan untuk membuat struktur direktori baru untuk proyek Django.
-3. docmerge 
+3. docmanage 
 adalah nama proyek yang akan dibuat. Kamu bisa menggantinya dengan nama lain sesuai kebutuhan.
 
-Perintah ini akan menghasilkan direktori docmerge yang berisi struktur dasar proyek Django, seperti:
+Perintah ini akan menghasilkan direktori docmanage yang berisi struktur dasar proyek Django, seperti:
 
 ```bash
-docmerge/
+docmanage/
     manage.py
-    docmerge/
+    docmanage/
         __init__.py
         settings.py
         urls.py
@@ -34,7 +34,7 @@ docmerge/
 ### Penjelasan Direktori
 1. manage.py 
 adalah file yang digunakan untuk menjalankan berbagai perintah Django dari baris perintah.
-2. Direktori kedua dengan nama yang sama (docmerge/) 
+2. Direktori kedua dengan nama yang sama (docmanage/) 
 berisi file konfigurasi proyek seperti:
     - settings.py
     digunakan untuk menyimpan pengaturan (settings) proyek Django, seperti database, middleware, aplikasi yang terpasang, dan lainnya.
@@ -45,13 +45,13 @@ berisi file konfigurasi proyek seperti:
 
 ### 2. Masuk ke Direktori Project
 ```bash
-cd docmerge
+cd docmanage
 ```
 Setelah proyek Django baru dibuat, kamu perlu masuk ke direktori proyek untuk mulai bekerja dengan file dan konfigurasi proyek tersebut.
 
 ### Penjelasan Perintah
-- cd docmerge
-adalah perintah untuk change directory yang digunakan untuk berpindah ke direktori yang sudah dibuat (dalam hal ini, direktori docmerge). Perintah ini akan memindahkan kamu ke dalam direktori docmerge, di mana kamu dapat mulai bekerja dengan pengaturan proyek Django.
+- cd docmanage
+adalah perintah untuk change directory yang digunakan untuk berpindah ke direktori yang sudah dibuat (dalam hal ini, direktori docmanage). Perintah ini akan memindahkan kamu ke dalam direktori docmanage, di mana kamu dapat mulai bekerja dengan pengaturan proyek Django.
 
 ### 3. Membuat Aplikasi Baru
 ```
@@ -81,8 +81,8 @@ merge/
 Hasil Struktur Akhir
 
 ```
-docmerge/
-├── docmerge/
+docmanage/
+├── docmanage/
 │   ├── __init__.py
 │   ├── asgi.py
 │   ├── settings.py
